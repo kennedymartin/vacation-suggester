@@ -26,6 +26,8 @@ $(document).ready(function(){
       $('#cabo').show();
     } if else (4 < result >=7) {
       $('#sonoma').show();
+    } else (result > 7) {
+      $('#ashland').show();
     }
 
   });
