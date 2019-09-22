@@ -15,3 +15,9 @@
 #elderly {
   display: none;
 }
+
+#cabo {
+  display: none;
+  color: yellow;
+  background-color: deeppink;
+}
