@@ -16,9 +16,11 @@ $(document).ready(function(){
     var number2 = parseInt($("#question2").val());
     var number3 = parseInt($("#question3").val());
     var result = add(number1, number2, number3);
+    $("#output").text(result);
 
-    if (age >= 70) {
-      $('#elderly').show();
-    }
+    // if (age >= 70) {
+      // $('#elderly').show();
+    // }
+
   });
 });
