@@ -24,7 +24,9 @@ $(document).ready(function(){
 
     if (result <= 4) {
       $('#cabo').show();
-    } 
+    } if else (4 < result >=7) {
+      $('#sonoma').show();
+    }
 
   });
 });
