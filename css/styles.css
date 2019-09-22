@@ -8,3 +8,8 @@
   font-family: 'Times New Roman', Times, serif;
   color: magenta;
 }
+
+.btn {
+  color: white;
+  background-color: deeppink;
+}
