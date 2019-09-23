@@ -16,34 +16,42 @@
   display: none;
   color: yellow;
   background-color: deeppink;
+  width: 800px;
+  margin: 20px;
 }
 
 #minor {
   display: none;
   color: yellow;
-  background-color: deeppink;
+  background-color: deeppink;width: 800px;
+  margin: 20px;
 }
 
 #cabo {
   display: none;
   color: yellow;
   background-color: deeppink;
+  width: 800px;
+  margin: 20px;
 }
 
 #sonoma {
   display: none;
   color: yellow;
   background-color: deeppink;
+  width: 800px;
+  margin: 20px;
 }
 
 #ashland {
   display: none;
   color: yellow;
   background-color: deeppink;
+  width: 800px;
+  margin: 20px;
 }
 
 #opening-paragraph {
   font-style: italic;
   background-color: white;
-  font-weight: bold;
 }
