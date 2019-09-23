@@ -10,6 +10,7 @@ var add = function(number1, number2, number3) {
 $(document).ready(function(){
   $("form#vacation").submit(function() {
     event.preventDefault();
+    var name = ($("#name").val());
     var age = parseInt($("#age").val());
     var number1 = parseInt($("#question4").val());
     var number2 = parseInt($("#question5").val());
@@ -17,6 +18,7 @@ $(document).ready(function(){
     var result = add(number1, number2, number3);
 
     if (age >= 80) {
+      $(name).insertBefore("#elderly");
       $('#elderly').fadeIn();
       $('#minor').hide();
       $('#cabo').hide();
