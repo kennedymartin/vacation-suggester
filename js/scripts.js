@@ -17,31 +17,31 @@ $(document).ready(function(){
     var result = add(number1, number2, number3);
 
     if (age >= 80) {
-      $('#elderly').show();
+      $('#elderly').fadeIn();
       $('#minor').hide();
       $('#cabo').hide();
       $('#sonoma').hide();
       $('#ashland').hide();
     } else if (age < 18) {
-      $('#minor').show();
+      $('#minor').fadeIn();
       $('#elderly').hide();
       $('#cabo').hide();
       $('#sonoma').hide();
       $('#ashland').hide();
     } else if (result <= 4) {
-      $('#cabo').show();
+      $('#cabo').fadeIn();
       $('#elderly').hide();
       $('#minor').hide();
       $('#sonoma').hide();
       $('#ashland').hide();
     } else if (result <=7 && result > 4) {
-      $('#sonoma').show();
+      $('#sonoma').fadeIn();
       $('#elderly').hide();
       $('#minor').hide();
       $('#cabo').hide();
       $('#ashland').hide();
     } else if (result > 7) {
-      $('#ashland').show();
+      $('#ashland').fadeIn();
       $('#elderly').hide();
       $('#minor').hide();
       $('#cabo').hide();
