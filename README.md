@@ -10,8 +10,8 @@ _This form-based vacation suggester asks the user questions and provides a sugge
 
 ## Setup/Installation Requirements
 
-* _Clone this repository to your desktop._
-* _Open file named "index.html" in a web browser of your choice._
+* _Clone this repository to your desktop (use command 'git clone')._
+* _Open the HTML file named "index.html" in a web browser of your choice (double click on the file, or right-click - and choose "Open with")._
 
 ## Technologies Used
 

@@ -41,3 +41,9 @@
   color: yellow;
   background-color: deeppink;
 }
+
+#opening-paragraph {
+  font-style: italic;
+  background-color: white;
+  font-weight: bold;
+}
